@@ -7,7 +7,7 @@ This repository contains the project for a hand gesture controlled robot using E
 - **Hand Gesture Control**: Control the robot using predefined hand gestures.
 - **Wireless Communication**: Uses two ESP32 modules for wireless communication and processing.
 - **MPU Accelerometer Sensor Integration**: Detects hand gestures using an MPU accelerometer sensor.
-- **Motor Control**: Uses a double H-bridge to control 4 DC motors.
+- **Motor Control**: Uses a double H-bridge to control 2 DC motors.
 - **Server-Client Architecture**: Implements a master-slave architecture for communication and control.
 
 ## Components Used
@@ -15,7 +15,7 @@ This repository contains the project for a hand gesture controlled robot using E
 - **2 ESP32 Modules**: Microcontrollers for processing and wireless communication (one as master and one as slave).
 - **MPU Accelerometer Sensor**: Used to detect hand gestures.
 - **Double H-Bridge**: For controlling the DC motors.
-- **4 DC Motors**: For the robot's movement.
+- **2 DC Motors**: For the robot's movement.
 - **2 Battery Holders**: To power the ESP32 modules and motors.
 - **Robot Chassis**: The physical structure of the robot.
 
